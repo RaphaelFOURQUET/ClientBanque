@@ -188,7 +188,7 @@ public class Compte  implements java.io.Serializable {
 
 	@Override
 	public String toString() {
-		return "Compte [idCompte=" + idCompte + ", solde=" + solde + ", dateCreation=" + dateCreation+"]";
+		return "Compte [idCompte=" + idCompte + ", solde=" + solde + ", dateCreation=" + dateCreation.getTime()+"]";
 	}
 
 }
