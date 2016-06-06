@@ -51,7 +51,7 @@ public class ComptesServlet extends HttpServlet {
 			for(Compte c : comptes) {
 				System.out.println(c);
 			}
-			System.out.println(comptes);
+			//System.out.println(comptes);
 			request.getSession().setAttribute("comptes", comptes);
 
 		} catch (ServiceException e) {
